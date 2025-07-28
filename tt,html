@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <body>
+        <h1><strong>BÀI TẬP HTML CƠ BẢN</strong></h1>
+        <ul>
+            <li>Thẻ văn bản</li>
+            <li>Thẻ đa phương tiện</li>
+            <li>Thẻ from</li>
+            <li>Thẻ bảng</li>
+        </ul>
+    </body>

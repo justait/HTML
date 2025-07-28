@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title>Trang web đầu tiên của tôi</title>
+    </head>
+    <body>
+        <h1><strong>BÀI TẬP HTML CƠ BẢN</strong></h1>
+        <ul>
+            <li><a href="https://google.com">Thẻ văn bản</a></li>
+            <li><a href="https://google.com">Thẻ đa phương tiện</a></li>
+            <li><a href="https://google.com">Thẻ from</a></li>
+            <li><a href="https://google.com">thẻ bảng</a></li>
+        </ul>
+        <br>
+        <h2><strong>1.CÁC THẺ VĂN BẢN</strong></h2>
+        <br>
+        <h3><strong>Tiêu đề từ H1 đến H6</strong></h3>
+        <br>
+        <h1><strong>Đây là H1</strong></h1>
+        <br>
+        <h2><strong>Đây là H2</strong></h2>
+        <br>
+        <h3><strong>Đây là H3</strong></h3>
+        <br>
+        <h4><strong>Đây là H4</strong></h4>
+        <br>
+        <h5><strong>Đây là H5</strong></h5>
+        <br>
+        <h6><strong>Đây là H6</strong></h6>
+        <br>
+        <p><strong>Các thẻ định dạng văn bản:</strong></p>
+        <br>
+        <p>Đây là một <strong>đoạn văn</strong> với nhiều định dạng khác nhau</p>
+        <br>
+        <p><strong>Chữ đậm với thẻ b</strong></p>
+        <p><strong>Chữ đậm với thẻ strong</strong></p>
+        <p><em>Chữ nghiêng với thẻ j </em></p>
+        <p><em>Chữ nhấn mạnh với<strong> thẻ em</strong></em></p>
+        <p><u>Chữ gạch chân</u></p>
+        <p><s>Chữ gạch ngang</s></p>
+        <p><mark>Chữ được đánh dấu</mark></p>
+        <p><small>Chữ nhỏ</small></p>
+        <big>Chữ lớn</big>
+        <p><sub>Chữ viết dưới </sub>Và<sup>Chữ viết trên</sup></p>
+        <code>Mã code: console,log("Hello World");</code>
+        <br>
+        <code>Phím: Ctrl + c</code>
+        <br>
+       <strong><em>Biến: x=10</em></strong>
+       <br>
+       <code>Kết quả: Hello work</code>
+       <br>
+       <h2><strong>Trích dẫn:</strong></h2>
+       <p>"Học tập là con đường duy nhất dẫn đến thành công."</p>
+       <p>Như"Einstein" đã nói:"<strong>Trí tưởng tượng quan trọng hơn kiến thức"</strong></p>
+       <h2><strong>Danh sách:</strong></h2>
+       <h3><strong>Danh sách có thứ tự (ol)</strong></h3>
+       <ol>
+        <li>Mục đầu tiên</li>
+        <li>Mục thứ 2</li>
+        <li>Mục thứ 3</li>
+       </ol>
+       <h3><strong>Danh sách không thứ tự(ul)</strong></h3>
+       <ul>
+        <li>Mục A</li>
+        <li>Mục B</li>
+        <li>Mục C</li>
+       </ul>
+       <h3><strong>Danh sách định nghĩa (dl):</strong></h3>
+       <dl>
+        <sup>HTML</sup><sub>HyperTextMarkupLangue</sub>
+        <br>
+        <sup>CSS</sup><sub>Cascading Style Sheets</sub>
+        <br>
+        <sup>JS</sup><sub>JavaScrip</sub>
+       </dl>
+       <br>
+       <h2><strong>2.Các thẻ đa phương tiện(Media Tags)</strong></h2>
+       <br>
+       <h3><strong>Liên kết(links):</strong></h3>
+       <a href="https://google.com">Mở liên kết dến tab mới</a>
+       <br>
+       <a href="https://google.com">Liên kết nội bộ</a>
+       <br>
+       <a href="https://google.com">Liên kết email</a>
+       <br>
+       <a href="https://google.com">Liên kết số điện thoại</a>
+       <br>
+       <h3><strong>Hình ảnh</strong></h3>
+       <img src="anh1.webp"atl=mô tả>
+       <h3><strong>Audio và Video:</strong></h3>
+       <audio controls>
+        <source src="nhac.mp3"type="audio/mpeg">
+       </audio>
+       <br>
+       <video controls width="400"height="300">
+        <source src="haili.mp4"type="video/mp4">
+        <source src="haili.mp4"type="video/web">
+       </video>
+       <h3><strong>Iframe</strong></h3>
+<iframe src="haili.mp4" style=”height:100px;width:300px;”></iframe>
+<h2><strong>3.Các thẻ form(Form tags)</strong></h2>
+<table border=“1” style=“width:100%”>
+    <th>Thông tin cá nhân</th>
+ <td> 
+<form action="/submit_form" method="post">
+  <label for="name">Họ và Tên:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="Mật khẩu">Mật khẩu:</label>
+  <input typer="text" id="Mật khẩu:" name="Mật khẩu"><br><br>
+
+  <label for="Tuổi">Tuổi:</label>
+  <input typer="text" id="Tuổi:" name="Tuổi"><br><br>
+
+<label for="colorPicker">Màu yêu thích:</label>
+<input type="color" id="colorPicker" name="colorPicker" value="#ff0000"><br><br>
+
+<label for="muc_do_hai_long">Mức độ hài lòng:</label>
+<input type="range" id="muc_do_hai_long" name="muc_do_hai_long" min="1" max="10" value="3"><br><br>
+</form>
+ </td>
+ </table>
+ <br>
+
+ <table border=“1” style=“width:100%”>
+    <th>Tùy chọn khác</th>
+ <td> 
+<form action="/submit_form" method="post">
+    <head>
+<title>Giới tính</title>
+</head>
+<body>
+<form>
+    <label for="Giới tính">Giới tính:</label><br><br>
+<input type="radio" name="Nam" value="Nam"> Nam
+<input type="radio" name="Nữ" value="Nữ"> Nữ
+</form>
+</body>
+<br>
+<head>
+<title>Sở thích</title>
+</head>
+<body>
+<form>
+     <label for="Sở thích">Sở thích:</label><br><br>
+<input type="checkbox" name="Âm nhạc" value="on"> Âm nhạc><br><br>
+<input type="checkbox" name="Thể thao" value="on"> Thể thao><br><br>
+<input type="checkbox" name="Đọc sách" value="on"> Đọc sách><br><br>
+</form>
+</body>
+<br>
+<body>
+<form>
+    <label for="Quốc gia">Quốc gia:</label>
+<select name="Quốc Gia">
+<option value="Chọn quốc gia" selected>Chọn quốc gia</option>
+<option value="Việt Nam">Việt Nam</option>
+</select>
+</form>
+</body>
+<br>
+<head>
+<title>tin nhắn</title>
+</head>
+<body>
+<form>
+Tin nhắn: <br />
+<textarea rows="5" cols="50" name="description">
+Nhập tin nhắn...
+</textarea>
+</form>
+</body>
+<br>
+<head>
+<title>Tải file</title>
+</head>
+<body>
+<form>
+    <label for="Tải file">Tải file:</label><br><br>
+<input type="file" name="fileupload" accept="image/*" />
+</form>
+</body>
+<br>
+<label for="Tiến độ:">Tiến độ:</label>
+ <progress value="250" max="500"></progress>
+ <br>
+ <label for="Đánh giá:">Đánh giá:</label>
+<progress value="150" max="500"></progress>
+<br>
+</td>
+ </table>
+<head>
+<title>Vi du button trong HTML</title>
+</head>
+<body>
+<form>
+<input type="submit" name="Gửi" value="Gửi" />
+<input type="reset" name="Xóa"  value="Xóa" />
+<input type="button" name="Button Input" value="Button Input"  />
+</form>
+</body>
+<br>
+<head>
+<title>Ví dụ bảng HTML</title>
+</head>
+<body>
+
+<h2>Bảng ví dụ</h2>
+
+<table border="1">
+  <tr>
+    <th>STT</th>
+    <th>Họ Và Tên</th>
+    <th>Toán</th>
+    <th>Văn</th>
+    <th>Anh</th>
+    <th>Trung Bình</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Nguyễn Văn A</td>
+    <td>8.5</td>
+    <td>7.0</td>
+    <td>9.0</td>
+    <td>8.2</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Trần Thị B</td>
+    <td>9.0</td>
+    <td>8.5</td>
+    <td>8.0</td>
+    <td>8.5</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Lê Văn C</td>
+    <td colspan="4">Nghỉ học</td>
+  </tr>
+<th>Điểm trung bình lớp</th>
+<td colspan="5">8.35</td>
+</table>
+</body>
+<br>
+<h2><strong>5.Các thẻ khác</strong></h2>
+<br>
+<h3><strong>Thẻ div và span</strong></h3>
+<div style="background-color: lightblue;">
+          <p>Đây là một div block với <span style="color: red;">span inline</span>bên trong.</p>
+    </div>
+    <h3><strong>Thẻ dentails và summary</strong></h3>
+    <head>
+<title>Vi du the Summary trong HTML</title>
+</head>
+<body>
+<details>
+  <summary>click để xem thêm</summary>
+  <p>Mày nhìn cái chó gi?</p>
+</details>
+</section>
+<br>
+<h3><strong>thẻ address:</strong></h3>
+<footer>
+  <address>
+    Đại ka:Long Ma <br>
+    Email: <a href="mailto:tglong111008@gmail.com">tglong111008@gmail.com</a> <br>
+    Địa chỉ: 123 Đường ABC, Quận 1, TP.HCM
+  </address>
+</footer>
+<br>
+<h3><strong>Thẻ time:</strong></h3>
+<time datetime="năm-tháng-ngày giờ:phút:giây">Bài viết được đăng vào 25/7/2025 lúc 18:00</time>
+<br>
+<h3><strong>Thẻ abbr</strong></h3>
+<abbr title="HTML là ngôn ngữ đánh dấu siêu văn bản ">HTML</abbr>Là ngôn ngữ đánh dấu siêu văn bản
+<br>
+<h3><strong>Thẻ hr(đường kẻ ngang)</strong></h3>
+<hr>
+<br>
+<h3><strong>Thẻ br(xuống dòng):</strong></h3>
+<br>
+Dòng đầu tiên<br>
+Dòng thứ hai<br>
+Dòng thứ ba<br>
+<h3><strong>Preformatted text</strong></h3>
+<pre>
+    Đây là văn bản được định dạng săn
+       Khoảng trắng và xuống dòng được giữ nguyên
+             Thích hợp cho code hoặc ASCII art
+</pre>
